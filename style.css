@@ -1,0 +1,11 @@
+.color {
+  width: 25px;
+  height: 25px;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
