@@ -135,17 +135,68 @@
 
 //     }
 // }
-let bravo = 8;
-let chiffre = parseInt(prompt("tapper un chiffre entre 0 et 10"));
+// let bravo = 8;
+// let chiffre;
 
 
-for (let i = 0; chiffre != bravo; i++) {
-    if (chiffre > 10 || chiffre < 0) {
-        chiffre = parseInt(prompt("votre chiffre n'est pas valide, essayez encore: "));
-    } else if (chiffre > bravo) {
-        chiffre = parseInt(prompt("votre chiffre est trop grand, essayez encore: "));
-    } else if (chiffre < bravo) {
-        chiffre = parseInt(prompt("votre chiffre est trop petit, essayez encore: "));
+// for (let i = 0; chiffre != bravo; i++) {
+//     chiffre = parseInt(prompt("tapper un chiffre entre 0 et 10"));
+//     if (chiffre > 10 || chiffre < 0) {
+//         alert("le chiffre doit être entre 0 et 10");
+//     } else if (chiffre > bravo) {
+//         alert("votre chiffre est trop grand, essayez encore: ");
+//     } else if (chiffre < bravo) {
+//         alert("votre chiffre est trop petit, essayez encore: ");
+//     } else {
+//         alert("bravo!");
+//     }
+// }
+
+
+// let array = ["JS", "est", "super", "cool"];
+// console.log(array.join(" "));
+
+// let phrase = "Apprenez-javascript-avec-plaisir";
+// console.log(phrase.split("-"));
+
+// let user = prompt("tappe une color");
+// let array = ["rouge", "vert", "vlanc", "orange"];
+// let result = user.toLowerCase();
+// if (array.includes(result)) {
+//     alert("l'index de " + result + " et " + array.indexOf(result));
+// } else {
+//     alert("la color n'est pas dnas la liste")
+// }
+
+
+// function saluer(name) {
+//     name = "Magib"
+//     return alert("bonjour " + name)
+// }
+
+// saluer()
+
+// function estPair(chiffre) {
+//     return chiffre % 2 === 0;
+// }
+
+// console.log(estPair(8));
+
+function blabla(note) {
+    if (note >= 16) {
+        return console.log("exellent");
+
+    } else if (note >= 12 && note <= 15) {
+        return console.log("bien");
+
+    } else if (note >= 8 && note <= 11) {
+        return console.log("possible");
+
+    } else {
+        return console.log("Insuffisant");
+
     }
+
 }
-alert("bravo!");
+
+blabla(18);
