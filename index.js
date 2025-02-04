@@ -182,21 +182,103 @@
 
 // console.log(estPair(8));
 
-function blabla(note) {
-    if (note >= 16) {
-        return console.log("exellent");
+// function blabla(note) {
+//     if (note >= 16) {
+//         return console.log("exellent");
 
-    } else if (note >= 12 && note <= 15) {
-        return console.log("bien");
+//     } else if (note >= 12 && note <= 15) {
+//         return console.log("bien");
 
-    } else if (note >= 8 && note <= 11) {
-        return console.log("possible");
+//     } else if (note >= 8 && note <= 11) {
+//         return console.log("possible");
 
-    } else {
-        return console.log("Insuffisant");
+//     } else {
+//         return console.log("Insuffisant");
 
-    }
+//     }
 
-}
+// }
 
-blabla(18);
+// blabla(18);
+
+
+// let phoneNombers = [
+//     "0600000000",
+//     "0600000001",
+//     "0600002",
+//     "0600000003",
+//     "06000004",
+//     "0600000005",
+//     "0600000006",
+//     "0600000007",
+//     "0600000008",
+//     "060000009",
+// ]
+// let isValid = phoneNombers.filter(i => i.length === 10);
+// console.log(isValid);
+
+// phoneNombers.forEach(i => {
+//     if (i.length === 10) {
+//         console.log(i + " valide");
+//     } else {
+//         console.log(i + " no valid");
+
+//     }
+
+
+// })
+
+// let numbers = [
+//     1, 2, 3, 7, 8, 9, 5, 4, 1, 2
+// ]
+// let pair = []
+
+
+
+// for (let i of numbers) {
+
+//     pair.push(i * i)
+// }
+// console.log(pair);
+
+
+// let numbers = [
+//     5, 9, 7, 23, 45
+// ]
+
+// let res = 0
+// numbers.forEach(function (number, i) {
+
+
+//     res = res + number
+
+
+
+
+// })
+// console.log(res);
+
+
+
+
+
+// const brojevi = [10, 20, 30, 40, 50];
+
+// brojevi.forEach((element, index, array) => {
+//     console.log(`Element: ${element}, Indeks: ${index}, Celi niz: ${array}`);
+// });
+
+
+// let omer = [
+//     "bonjour", "mmonde", "javascript",
+// ]
+
+// let res = [
+
+// ]
+// omer.forEach(function (oki, i) {
+//     res.push(oki.toUpperCase())
+
+// })
+
+// console.log(res);
